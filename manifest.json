@@ -1,0 +1,25 @@
+{
+    "name": "testing_testing_f___k",
+    "version": "1.0.0",
+    "description": "testing_testing_f___k 插件",
+    "author": "micraft1024a",
+    "dependencies": {
+        "plugins": [],
+        "components": []
+    },
+    "include": [
+        {
+            "component_type": "config",
+            "component_name": "config",
+            "dependencies": []
+        }
+    ],
+    "entry_point": "plugin.py",
+    "min_core_version": "1.0.0",
+    "categories": [
+        "tool"
+    ],
+    "tags": [
+        "1"
+    ]
+}
