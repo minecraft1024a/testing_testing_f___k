@@ -17,8 +17,8 @@ class Config(BaseConfig):
     扩展 ConfigBase，提供插件特定的配置管理。
     """
 
-    config_name = "config"
-    config_description = "插件配置"
+    name = "config"
+    description = "插件配置"
 
     @config_section("general")
     class GeneralSection(SectionBase):
